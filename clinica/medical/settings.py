@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'clinica',
+    'farmacia',
     'rest_framework',
 ]
 
@@ -156,3 +157,4 @@ SIMPLE_JWT = {
 MEDIA_ROOT= BASE_DIR/'media'
 MEDIA_URL= '/media/'
 AUTH_USER_MODEL = "clinica.User"
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
